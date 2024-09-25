@@ -1,0 +1,17 @@
+.body {
+  padding: 1rem;
+}
+.body #table {
+  margin-top: 1rem;
+}
+.body input  {
+    margin-right: 8px;
+    margin-bottom: 12px;
+}
+.body tr:not(:first-of-type) {
+  background-color: rgb(219, 219, 219);
+}
+.body tr:nth-child(even) {
+  background-color: black;
+  color: white;
+}
